@@ -1,0 +1,32 @@
+RWS Language Cloud API Documentation
+APIS
+RWS Language Cloud API
+The RWS Language Cloud API enables external applications to interact with RWS Language Cloud.
+
+Product Configurations
+This applies to all products that are based on RWS Language Cloud. Note that, depending on the product and its configuration, certain features may not be available or the rate might be limited through the API. In general, when a certain feature is available in your specific product configuration, the corresponding endpoints will also be available in the API.
+
+Features Overview
+At present, the API contains mainly capabilities that enable the creation, management and tracking of cloud translation projects.
+
+Resources like termbases and translation memories can also be created using the RWS Language Cloud API. Any other resources, such as project templates or pricing models need to be set up beforehand, using the user interface.
+
+Types of Integrations
+At the moment the RWS Language Cloud API can be called by custom (integration) applications on behalf of service users (non-human users). The ability to call the API on behalf of real end users will be supported at a later date.
+
+Creating Your First Project
+Follow these steps to create your first project using the API:
+
+1. Create a service user, an application and authenticate
+Follow the instructions under the Service users and custom applications and the Service Credentials pages to create a service user and an application, and then authenticate, following the Authentication page, by using the application's client_id and client_secret.
+
+2. Create your first project
+See Create projects and Basic project creation flow for a walk-through of the required steps to create a project.
+
+RWS Language Cloud API
+Product Configurations
+Features Overview
+Types of Integrations
+Creating Your First Project
+1. Create a service user, an application and authenticate
+2. Create your first project
